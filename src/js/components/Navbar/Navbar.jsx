@@ -8,7 +8,7 @@ export default React.createClass({
         <div className="navbar">
           <div className="container">
             <div className="navbar-left">
-              <h1>VäderWiz</h1>            
+              <h1>Väderapp</h1>            
             </div>
           </div>
         </div>
