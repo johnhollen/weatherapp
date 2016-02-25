@@ -1,0 +1,16 @@
+.dropdownmenu-wrapper {
+  width: 100%;
+  position: relative;
+
+  .dropdownmenu-menu {
+    position: absolute;
+    padding: 10px;
+    background-color: $backgroundColor;
+    display: inline-block;
+    box-shadow: $standardShadow;
+    left: 0px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 10;
+  }
+}

@@ -1,0 +1,35 @@
+.maincomponent-content {
+  padding: 20px;
+  margin-top: 1000px;
+  width: 100%;
+  display: table;
+
+  .maincomponent-full {
+    width: 100%;
+    background-color: $backgroundColor;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: $standardShadow;
+  }
+
+  .maincomponent-centered {
+    width: 70%;
+    margin: 0 auto;
+    background-color: $backgroundColor;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: $standardShadow;
+  }
+
+  .maincomponent-half {
+    width: 46%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    float: left;
+    background-color: $backgroundColor;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: $standardShadow;
+  }
+}

@@ -1,0 +1,29 @@
+
+$accentColor: #fff;
+$borderColor: #15212e;
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  z-index: 200;
+  width: 100vw;
+  height: 80px;
+  color: $accentColor;
+  background-color: $backgroundColor;
+  box-shadow: $standardShadow;
+
+  .navbar-left {
+    h1 {
+      display: inline-block;
+    }
+    ul {
+      display: inline-block;
+    }
+    .nav-list {
+      list-style: none;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import './variables';
+@import '../js/components/components-style';
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 100px;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
